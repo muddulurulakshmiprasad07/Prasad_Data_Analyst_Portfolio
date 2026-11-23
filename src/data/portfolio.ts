@@ -2,7 +2,7 @@
 export const profile = {
   name: "M LAKSHMI PRASAD",
   role: "ASPIRING DATA ANALYST",
-  tagline: "Turning Data Into Decisions",
+  tagline: "Learning Today, Analyzing Tomorrow, Creating Impact.",
   description:
     "I am an aspiring Data Analyst passionate about transforming raw data into meaningful insights. I work with Python, SQL, Excel and data visualization to discover patterns and support better business decisions.",
 
@@ -15,14 +15,16 @@ export const profile = {
     "Power BI",
     "Django"
   ],
-
+education: [
+  {
+    degree: "Bachelor of Technology (B.Tech)",
+    institution:
+      "Sri Venkatesa Perumal College of Engineering and Technology",
+    graduationYear: "2026",
+    status: "Completed"
+  }
+],
   projects: [
-    {
-      title: "E-Commerce Sales Analysis",
-      description:
-        "Analyzing sales data to discover revenue trends and business insights.",
-      tools: "Python | Pandas | Matplotlib"
-    },
     {
       title: "Real Estate Management",
       description:
@@ -30,10 +32,10 @@ export const profile = {
       tools: "Python | Django | HTML | CSS"
     },
     {
-      title: "SQL Data Analysis",
+      title: "Personal Portfolio Website",
       description:
-        "Using SQL queries to explore datasets and extract useful information.",
-      tools: "SQL | MySQL"
+        "Designed and developed a personal portfolio website to showcase my professional profile, technical skills, projects, and achievements. Created a responsive and interactive interface to highlight my journey as an aspiring Data Analyst.",
+      tools:"React | TypeScript | Vite | Tailwind CSS | Framer Motion | HTML | CSS | JavaScript | Git | GitHub"
     }
   ]
 };
